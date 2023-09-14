@@ -42,7 +42,7 @@ function registrarPaciente(nombre, edad){
 
     //Jugar al inception. Hay que hacer cambios en algunos elementos.  "Escape de caracteres"
 
-    //Paso 2. Guiardo cada par de datos, (nombre y edad en una variable llamada paciente)
+    //Paso 2. Guardo cada par de datos, (nombre y edad en una variable llamada paciente)
     let paciente = {
         nombre,
         edad,
@@ -70,7 +70,7 @@ function registrarCita(paciente, fecha, hora){
         fecha, hora
     )
 }
-
+/*
 
 //Funcion para mostrar la información del paciente con su cita
 function mostrarInfoPaciente(paciente){
@@ -100,14 +100,14 @@ let paciente2 = registrarPaciente("Naruto", 21);
 //Registrar la cita de un paciente desde la invocación de la función de registrarCita
 registrarCita(paciente1, "2023-09-12", "1:00 PM");
 
-mostrarInfoPaciente(paciente1);
-mostrarInfoPaciente(paciente2);
+//mostrarInfoPaciente(paciente1);
+//mostrarInfoPaciente(paciente2);
 
 //El for each permite meternos al arreglor y jugar con cada elemento para immprimirlos.
 
 //El 90% de las veces, for each es para imprimir cosas. Para modificarlas, e usa el .map
 
-/*
+
 let carritoSuper = ["manzanas", "papitas", "huevo", "jabón de trastes", "pan"];
 
 //Oye JS, para cada elemento del tipo "producto" que tenga una posición dentro del arreglo llamado "carritoSuper", vas a hacer algo
@@ -120,4 +120,3 @@ carritoSuper.forEach(function(producto)//variable temporal llamada producto
 //los entrevistadores ven los más mínimos detalles, desde como abres Visual Studio code, como nombras tus variables, archivos y lo último es sobre cómo compila.
 
 //Función que se ejecuta dentro de otra función, con un .map es un callback. El callback se va a detener hasta que ya no hayan elementos. 
-*/

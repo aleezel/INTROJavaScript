@@ -1,0 +1,44 @@
+/* Estilos generales */
+
+
+
+body{
+    text-align: center;
+    background-color:rgb(250, 250, 250);
+
+}
+
+/* Estilos para imagen */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color:rgb(21, 60, 131) ;
+
+}
+
+#mensajeConfirmacion {
+    color: rgb(7, 180, 65);
+    padding: 20px;
+}
+
+.imgDienteBrillos{
+    height: 150px;
+    width: 150px;
+}
+
+.textoprueba{
+    color: gray;
+    
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #51a6bf;
+    --bs-btn-border-color: none;

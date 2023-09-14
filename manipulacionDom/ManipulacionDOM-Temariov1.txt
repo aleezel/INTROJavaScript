@@ -1,0 +1,47 @@
+Manipulacion DOM
+
+	- Que es el DOM
+	- Para que nos sirve
+	- Como se el DOM se convierte en API DOM cuando le pongo JS
+
+
+- Leer elementos (Read)
+
+	- Metodos tradicionales
+		- getElementByID
+		- getElementsByTagName
+		- getElementsByClassName
+
+
+	- Metodos actuales
+		- querySelector
+		- querySelectorAll
+
+
+- Crear elementos (Create)
+
+	- createElement (etiquetas)
+        - createTextNode (textos)
+        - createComment (comentarios)
+
+
+- Poner elementos (append)
+	- append
+	- appendChild
+
+
+- Modificar elementos (Update)
+
+	- Modificaciones sobre el texto
+		- innerHTML
+		- textContent
+
+
+- Borrar elementos (Delete)
+
+
+
+
+
+
+
